@@ -25,30 +25,3 @@ public class Main {
             return;
         }
 
-        int max = a * a;
-        int cellWidth = String.valueOf(max).length() + 1;
-        int labelWidth = String.valueOf(a).length();
-
-        // Print header
-        System.out.printf("%" + (labelWidth + 2) + "s", "");
-        for (int i = 1; i <= a; i++) {
-            System.out.printf("%" + cellWidth + "d", i);
-        }
-        System.out.println();
-
-        // Separator line
-        for (int i = 0; i < labelWidth + 2 + cellWidth * a; i++) System.out.print("-");
-        System.out.println();
-
-        // Print rows
-        for (int i = 1; i <= a; i++) {
-            System.out.printf("%" + labelWidth + "d |", i);
-            for (int j = 1; j <= a; j++) {
-                System.out.printf("%" + cellWidth + "d", i * j);
-            }
-            System.out.println();
-        }
-
-        sc.close();
-    }
-}
