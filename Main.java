@@ -1,5 +1,7 @@
 // A program that prints out an a x a multiplication table
 
+// test test test
+
 import java.util.Scanner;
 
 public class Main {
