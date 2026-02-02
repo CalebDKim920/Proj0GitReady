@@ -1,6 +1,7 @@
 // A program that prints out an a x a multiplication table
 
 // test test test
+// teesttt 234567 67
 
 import java.util.Scanner;
 
